@@ -1,0 +1,39 @@
+h2 {
+  width: fit-content;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  left: calc(50% - 90px);
+  font-size: 50px;
+}
+.switcher {
+  display: flex;
+  margin: 20px auto;
+  max-width: 800px;
+  justify-content: space-between;
+  list-style: none;
+}
+.switcher li {
+  margin: 5px;
+  background-color: #ddd;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 21px;
+}
+.switcher li.active {
+  background-color: brown;
+  color: white;
+}
+.switcher li:hover {
+  background-color: brown;
+  color: white;
+  transition: 0.3s;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
